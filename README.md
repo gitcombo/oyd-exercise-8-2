@@ -129,10 +129,10 @@ terraform destroy -auto-approve
 - [x] Secret ARN expuesto como output
 - [x] `ci.yml` usa `role-to-assume` y no contiene `aws-access-key-id` ni `aws-secret-access-key`
 - [x] `ci.yml` incluye `id-token: write` en el bloque `permissions`
-- [ ] `evidence/ci-run.png` muestra el Actions run exitoso
+- [x] `evidence/ci-run.png` muestra el Actions run exitoso
 
 ---
 
 ## Evidence
 
-<!-- Pegar screenshot del Actions run exitoso en evidence/ci-run.png y hacer commit -->
+![CI Run](evidence/ci-run.png)
