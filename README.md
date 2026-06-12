@@ -135,4 +135,4 @@ terraform destroy -auto-approve
 
 ## Evidence
 
-![CI Run](evidence/ci-run.png)
+![CI Run](evidence/evidence.png)
